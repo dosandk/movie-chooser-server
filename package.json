@@ -1,0 +1,16 @@
+{
+  "name": "movie-chooser-server",
+  "version": "1.0.0",
+  "description": "Server for proxing imdb API",
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon --watch server ./server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
